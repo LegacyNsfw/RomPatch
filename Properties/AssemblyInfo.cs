@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("EcuHack")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("RomPatch")]
+[assembly: AssemblyDescription("Apply and remove patches for ECU images.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("EcuHack")]
+[assembly: AssemblyProduct("RomPatch")]
 [assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

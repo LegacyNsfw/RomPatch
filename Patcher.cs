@@ -345,6 +345,8 @@ namespace RomPatch
             this.FinalCalibrationId = finalCalibrationId;
 
             // Synthesize calibration-change patch and blobs.
+            // Seemed like a good idea at the time, but it's not.
+            // The .text section can overwrite these pseudo-sections, corrupting the patch file. Should have seen that coming.
             Patch patch = new Patch(
                 calibrationAddress, 
                 calibrationAddress + (calibrationLength - 1));
